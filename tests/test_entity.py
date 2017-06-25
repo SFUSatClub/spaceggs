@@ -5,7 +5,7 @@ import numpy as np
 from numpy.testing import assert_allclose
 import transforms3d as tf
 
-from ads.models import Entity
+from spaceggs.models import Entity
 
 def test_transformation_matrix():
     position = np.array([2,3,5])
