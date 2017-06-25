@@ -1,5 +1,7 @@
 # spaceggs
 
+spaceggs is the SFU Satellite Design Team (SFUSat) attitude determination system.
+
 ### Resources to get started
 
 #### Kalman Filter Basics
