@@ -1,2 +1,5 @@
 .ipynb_checkpoints
 *.pyc
+ads.egg-info
+.cache
+.eggs
