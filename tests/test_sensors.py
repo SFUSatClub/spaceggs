@@ -5,7 +5,7 @@ import numpy as np
 from numpy.testing import assert_allclose
 import transforms3d as tf
 
-from ads.models import SunSensor
+from spaceggs.models import SunSensor
 
 def test_sunsensor():
     sensor_position = np.array([1,1,1])

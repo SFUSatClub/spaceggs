@@ -1,4 +1,4 @@
-# Attitude Determination
+# spaceggs
 
 ### Resources to get started
 
