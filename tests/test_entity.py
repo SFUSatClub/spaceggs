@@ -5,12 +5,15 @@ from numpy.testing import assert_allclose
 import transforms3d as tf
 from spaceggs.models import Entity
 
-C30 = np.sqrt(3.0)/2.0
+'''
+Constants for sin and cos values
+'''
+C30 = 0.866025403784439
 S30 = 0.5
 C45 = 0.707106781186547
 S45 = 0.707106781186547
 C60 = 0.5
-S60 = np.sqrt(3.0)/2.0
+S60 = 0.866025403784439
 C90 = 0.0
 S90 = 1.0
 C360 = 1.0
@@ -20,7 +23,7 @@ S380 = 0.342020143325669
 C400 = 0.766044443118978
 S400 = 0.642787609686539
 C420 = 0.5
-S420 = np.sqrt(3.0)/2.0
+S420 = 0.866025403784439
 
 
 def test_transformation_matrix():
