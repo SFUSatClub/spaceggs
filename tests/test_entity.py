@@ -275,7 +275,7 @@ def test_transformation_matrix_x_360_y_380_z_400():
     C2 = C380
     S2 = S380
     C3 = C400
-    S3 = C400
+    S3 = S400
     expected = np.array([
         [C2*C3,-C2*S3,S2,2],
         [C1*S3+C3*S1*S2,C1*C3-S1*S2*S3,-C2*S1,3],
@@ -283,4 +283,4 @@ def test_transformation_matrix_x_360_y_380_z_400():
 		[0,0,0,1]
     ])    
     actual = Entity(position, orientation).M    
-    assert_allclose(actual, expected, atol=0.15)
+    assert_allclose(actual, expected, atol=1e-04)
